@@ -1,0 +1,24 @@
+{
+  "name": "tiktok-nodejs",
+  "version": "1.0.0",
+  "description": "tiktok node js api",
+   "homepage": "https://sparkdev21.github.io/githubpage",
+  "main": "index.js",
+    "dependencies": {
+  
+    "axios": "^1.4.0",
+    "express": "^4.18.2"
+    },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "node index"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
